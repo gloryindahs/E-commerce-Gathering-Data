@@ -1,9 +1,19 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 from babel.numbers import format_currency
+
+#requirements
+Babel==2.12.1
+matplotlib==3.8.0
+numpy==1.25.2
+pandas==2.1.4
+seaborn==0.13.0
+streamlit==1.26.0
 
 
 # Gathering Data
