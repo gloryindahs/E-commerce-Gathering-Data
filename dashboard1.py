@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from babel.numbers import format_currency
+
 
 # Gathering Data
 customers_df = pd.read_csv("https://raw.githubusercontent.com/gloryindahs/E-commerce-Gathering-Data/main/customers_dataset.csv")
