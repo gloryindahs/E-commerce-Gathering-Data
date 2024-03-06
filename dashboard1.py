@@ -7,14 +7,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from babel.numbers import format_currency
 
-#requirements
-matplotlib==3.8.0
-numpy==1.25.2
-pandas==2.1.4
-seaborn==0.13.0
-streamlit==1.26.0
-
-
 # Gathering Data
 customers_df = pd.read_csv("https://raw.githubusercontent.com/gloryindahs/E-commerce-Gathering-Data/main/customers_dataset.csv")
 orders_df = pd.read_csv("https://raw.githubusercontent.com/gloryindahs/E-commerce-Gathering-Data/main/orders_dataset.csv")
